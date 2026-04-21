@@ -1,4 +1,4 @@
-package oop.snacks;
+package oop.snacks.snack1;
 
 public class Studenti {
 
