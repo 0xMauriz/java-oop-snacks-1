@@ -1,4 +1,4 @@
-package oop.snacks.snack1;
+package oop.snacks.snack1And3;
 
 public class Studenti {
 
@@ -12,6 +12,10 @@ public class Studenti {
         this.cognome = cognome;
         this.eta = eta;
 
+    }
+
+    public String getInfoStudente() {
+        return String.format("%s %s, %d", this.nome, this.cognome, this.eta);
     }
 
     public String getAllInfo() {

@@ -1,4 +1,4 @@
-package oop.snacks.snack1;
+package oop.snacks.snack1And3;
 
 public class Main {
 
@@ -13,6 +13,20 @@ public class Main {
         System.out.println(jhonnyFresco.getAllInfo());
         System.out.println(gigiSquaglio.getAllInfo());
         System.out.println(marcoPera.getAllInfo());
+
+        RegistroStudenti registroStudenti = new RegistroStudenti();
+
+        System.out.println(registroStudenti);
+
+        registroStudenti.addStudente(marcoPera);
+        registroStudenti.addStudente(francoPaglia);
+
+        System.out.println(registroStudenti.toString());
+
+        registroStudenti.addStudente(gigiSquaglio);
+        registroStudenti.addStudente(jhonnyFresco);
+
+        System.out.println(registroStudenti.toString());
 
     }
 
